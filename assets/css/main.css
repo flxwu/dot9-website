@@ -2878,9 +2878,8 @@ input[type="button"].small,
   width: 2.35em;
 }
 
-#header .logo.fa-paper-plane-o:before {
-  left: -0.075em;
-  position: relative;
+#header .logo img {
+  border-radius: 10px;
 }
 
 #header h1 {
