@@ -49,7 +49,7 @@ function HeroHome() {
               data-aos="zoom-y-out"
               data-aos-delay="450"
             >
-              <div className="flex flex-col justify-center object-scale-down h-full w-full max-w-2xl">
+              <div className="flex flex-col justify-center object-scale-down h-full w-full max-w-xl">
                 <svg
                   id="b6117b06-2b45-45bc-b789-4a82ab6612dd"
                   data-name="Layer 1"
