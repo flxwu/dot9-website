@@ -297,7 +297,8 @@ function HeroHome() {
                 className="border-2 border-gray-300 absolute top-full flex items-center transform -translate-y-1/2 bg-white rounded-full font-medium group p-4 shadow-2xl"
                 href="http://felixwu.de"
                 onClick={(e) => {
-                  window.location.href = "mailto:contact@dot9.co"
+                  window.location.href =
+                    "mailto:contact@dot9.co?subject=Inquiry";
                 }}
                 aria-controls="modal"
               >
