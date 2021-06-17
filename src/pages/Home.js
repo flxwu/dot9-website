@@ -3,6 +3,7 @@ import FeaturesBlocks from "../partials/FeaturesBlocks";
 import Footer from "../partials/Footer";
 import Header from "../partials/Header";
 import HeroHome from "../partials/HeroHome";
+import Technologies from "../partials/Technologies";
 
 function Home() {
   return (
@@ -16,6 +17,7 @@ function Home() {
         <HeroHome />
         {/* <FeaturesHome /> */}
         <FeaturesBlocks />
+        <Technologies />
         {/* <Testimonials /> */}
         {/* <Newsletter /> */}
       </main>

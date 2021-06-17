@@ -15,12 +15,17 @@
     "postcss": "^8.2.9",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-icons": "^4.2.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
     "react-transition-group": "^4.4.1",
     "tailwindcss": "^2.1.1",
     "web-vitals": "^1.1.1"
   },
+  "engines": {
+    "node": ">=14"
+  },
+  "engineStrict": true,
   "scripts": {
     "start": "craco start",
     "build": "craco build",
