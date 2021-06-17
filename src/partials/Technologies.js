@@ -5,17 +5,21 @@ import {
   FaAws,
   FaNode,
   FaReact,
+  FaFigma,
 } from "react-icons/fa";
 import { RiFlutterLine } from "react-icons/ri";
+import { DiResponsive } from "react-icons/di";
 import React from "react";
 
 const techlist = [
+  [<FaFigma />, "UX / UI Design"],
+  [<DiResponsive />, "Responsive Design"],
+  [<FaNode />, "Node"],
+  [<FaAws />, "Amazon Web Services"],
   [<FaReact />, "React"],
   [<FaApple />, "Native iOS"],
   [<FaAndroid />, "Native Android"],
-  [<FaAws />, "Amazon Web Services"],
   [<RiFlutterLine />, "Flutter"],
-  [<FaNode />, "Node"],
   [<FaAngular />, "Angular"],
 ];
 
@@ -24,7 +28,7 @@ export default function Technologies() {
     <section className="relative">
       {/* Section header */}
       <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-        <h2 className="h2 mb-4">Technologies</h2>
+        <h2 className="h2 mb-4">Competencies</h2>
         <p className="text-xl text-gray-600">
           We work with the world's cutting-edge technologies and excel at
           writing and running software on the cloud.
