@@ -20,7 +20,7 @@ function HeroHome() {
                 for you.
               </span>
             </h1>
-            <div className="max-w-3xl mx-auto">
+            <div className="max-w-xl mx-auto">
               <p
                 className="text-xl text-gray-600 mb-8"
                 data-aos="zoom-y-out"
@@ -29,6 +29,15 @@ function HeroHome() {
                 dot9 puts your digital vision into reality with world-class
                 software. Founded by Google engineers, we excel at execution and
                 product excellence, while putting you and your needs first.
+              </p>
+              <p
+                className="text-xl text-gray-600 mb-8"
+                data-aos="zoom-y-out"
+                data-aos-delay="150"
+              >
+                Weather you are building from scratch, maintaining or scaling an
+                existing product, we jump in at any stage of the software
+                development cycle.
               </p>
             </div>
           </div>
