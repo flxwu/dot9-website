@@ -112,7 +112,7 @@ function Footer() {
 
           {/* Copyrights note */}
           <div className="text-sm text-gray-600 mr-4">
-            Made with &#10084;&#65039; in Germany. All rights reserved.
+            <p>Made with ♡ in Germany. All rights reserved.</p>
           </div>
         </div>
       </div>
