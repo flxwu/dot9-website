@@ -28,14 +28,14 @@ export default function Technologies() {
     <section className="relative">
       {/* Section header */}
       <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-        <h2 className="h2 mb-4">Competencies</h2>
+        <h2 className="h2 mt-4 mb-4">Competencies</h2>
         <p className="text-xl text-gray-600">
           We work with the world's cutting-edge technologies and excel at
           writing and running software on the cloud.
         </p>
       </div>
 
-      <div className="relative max-w-6xl mx-auto px-4 sm:px-6 grid grid-cols-6 gap-4">
+      <div className="relative max-w-6xl mx-auto px-4 sm:px-6 grid sm:grid-cols-2 md:grid-cols-4 xl:grid-cols-6 gap-4 mb-16">
         {techlist.map((t) => (
           <div className="relative flex flex-col items-center p-12 bg-gray-50 rounded border-gray-100 ">
             {React.cloneElement(t[0], { size: 42 })}
