@@ -42,7 +42,7 @@ function Terms() {
 
                 <p className="text-2xl mt-8">Kontakt</p>
                 <p>
-                  Telefon: +49 159 06190212
+                Telefon: +49 176 43877633
                   <br />
                   E-Mail: contact@dot9.co
                 </p>

@@ -14,6 +14,7 @@ import Home from './pages/Home';
 import SignIn from './pages/SignIn';
 import SignUp from './pages/SignUp';
 import Terms from './pages/Terms'
+import PrivacyPolicy from './pages/PrivacyPolicy'
 import ResetPassword from './pages/ResetPassword';
 
 function App() {
@@ -50,6 +51,9 @@ function App() {
         </Route>
         <Route path="/terms">
           <Terms />
+        </Route>
+        <Route path="/privacy">
+          <PrivacyPolicy />
         </Route>
         <Route path="/reset-password">
           <ResetPassword />

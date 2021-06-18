@@ -23,7 +23,7 @@ function Footer() {
               </Link>{" "}
               ·{" "}
               <Link
-                to="#"
+                to="/privacy"
                 className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out"
               >
                 Privacy Policy
