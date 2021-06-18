@@ -24,7 +24,7 @@ function Header() {
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Site branding */}
           <div className="flex-shrink-0 mr-4">
-            <Logo width="186" height="70" />
+            <Logo width="120" height="70" />
           </div>
 
           {/* Site navigation */}
