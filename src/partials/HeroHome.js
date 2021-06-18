@@ -27,7 +27,7 @@ function HeroHome() {
                 data-aos-delay="150"
               >
                 dot9 puts your digital vision into reality with world-class
-                software. Founded by Google engineers, we excel at execution and
+                software. Founded by industry veterans, we excel at execution and
                 product excellence, while putting you and your needs first.
               </p>
               <p
