@@ -69,9 +69,10 @@ function FeaturesBlocks() {
                 Web development
               </h4>
               <p className="text-gray-600 text-center">
-                Turn your ideas into high-tech solutions with a user-centered
-                approach. We help you plan and define, then build, launch and
-                scale your digital product.
+                We develop full-fletched web applications that <b>scale to
+                hundreds of thousands of users around the world</b>. We use the best and most modern
+                technologies, integrate with various databases and APIs, and
+                properly productionize your app.
               </p>
             </div>
 
@@ -99,9 +100,9 @@ function FeaturesBlocks() {
                 Mobile App Development
               </h4>
               <p className="text-gray-600 text-center">
-                Turn your ideas into high-tech solutions with a user-centered
-                approach. We help you plan and define, then build, launch and
-                scale your digital product.
+                Build stunning mobile experiences for <b><i>cross-platform, iOS, and Android</i></b>, with
+                responsive, user-centered design. We make apps that deliver <b>real value</b> to users,
+                and will advise you on making critical choices.
               </p>
             </div>
 
@@ -129,9 +130,7 @@ function FeaturesBlocks() {
                 Operations and Monitoring
               </h4>
               <p className="text-gray-600 text-center">
-                Turn your ideas into high-tech solutions with a user-centered
-                approach. We help you plan and define, then build, launch and
-                scale your digital product.
+                Building and shipping an application is the start of the software lifecycle - Some applications require to be carefully monitored to continously ensure it's running as expected.
               </p>
             </div>
           </div>

@@ -35,7 +35,7 @@ function HeroHome() {
                 data-aos="zoom-y-out"
                 data-aos-delay="150"
               >
-                Weather you are building from scratch, maintaining or scaling an
+                Whether you are building from scratch, maintaining or scaling an
                 existing product, we jump in at any stage of the software
                 development cycle.
               </p>
