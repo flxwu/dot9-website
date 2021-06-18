@@ -16,7 +16,7 @@ function Footer() {
             </div>
             <div className="text-sm text-gray-600">
               <Link
-                to="#"
+                to="/terms"
                 className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out"
               >
                 Terms
