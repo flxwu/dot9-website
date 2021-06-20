@@ -9,7 +9,8 @@ function FeaturesBlocks() {
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <h2 className="h2 mb-4">The services we offer</h2>
             <p className="text-xl text-gray-600">
-              We enable you to ship great quality software. With our broad bandwith of services we operate as a full-flexed engineering team.
+              We enable you to ship great quality software. With our broad
+              bandwith of services we operate as a full-flexed engineering team.
             </p>
           </div>
 
@@ -64,13 +65,13 @@ function FeaturesBlocks() {
               </div>
 
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">
-                Web development
+                Full-Stack Web development
               </h4>
               <p className="text-gray-600 text-center">
-                We develop full-fletched web applications that <b>scale to
-                hundreds of thousands of users around the world</b>. We use the best and most modern
-                technologies, integrate with various databases and APIs, and
-                properly productionize your app.
+                We develop full-fletched web applications that{" "}
+                <b>scale to hundreds of thousands of users around the world</b>.
+                We use the best and most modern technologies, integrate with
+                various databases and APIs, and properly productionize your app.
               </p>
             </div>
 
@@ -98,9 +99,13 @@ function FeaturesBlocks() {
                 Mobile App Development
               </h4>
               <p className="text-gray-600 text-center">
-                Build stunning mobile experiences for <b><i>cross-platform, iOS, and Android</i></b>, with
-                responsive, user-centered design. We make apps that deliver <b>real value</b> to users,
-                and will advise you on making critical choices.
+                Build stunning mobile experiences for{" "}
+                <b>
+                  <i>cross-platform, iOS, and Android</i>
+                </b>
+                , with responsive, user-centered design. We make apps that
+                deliver <b>real value</b> to users, and will advise you on
+                making critical choices.
               </p>
             </div>
 
@@ -128,7 +133,9 @@ function FeaturesBlocks() {
                 Operations and Monitoring
               </h4>
               <p className="text-gray-600 text-center">
-                Building and shipping an application is the start of the software lifecycle - Some applications require to be carefully monitored to continously ensure it's running as expected.
+                Building and shipping an application is the start of the
+                software lifecycle - Some applications require to be carefully
+                monitored to continously ensure it's running as expected.
               </p>
             </div>
           </div>
