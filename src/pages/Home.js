@@ -4,6 +4,7 @@ import Footer from "../partials/Footer";
 import Header from "../partials/Header";
 import HeroHome from "../partials/HeroHome";
 import Technologies from "../partials/Technologies";
+import Testimonials from "../partials/Testimonials";
 
 function Home() {
   return (
@@ -18,7 +19,7 @@ function Home() {
         {/* <FeaturesHome /> */}
         <FeaturesBlocks />
         <Technologies />
-        {/* <Testimonials /> */}
+        <Testimonials />
         {/* <Newsletter /> */}
       </main>
 

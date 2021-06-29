@@ -27,8 +27,8 @@ function HeroHome() {
                 data-aos-delay="150"
               >
                 dot9 puts your digital vision into reality with world-class
-                software. Founded by industry veterans, we excel at execution and
-                product excellence, while putting you and your needs first.
+                software. Founded by industry veterans, we excel at execution
+                and product excellence, while putting you and your needs first.
               </p>
               <p
                 className="text-xl text-gray-600 mb-8"
@@ -304,7 +304,6 @@ function HeroHome() {
               {/* Contact Us Button */}
               <button
                 className="border-2 border-gray-300 absolute top-full flex items-center transform -translate-y-1/2 bg-white rounded-full font-medium group p-4 shadow-2xl"
-                href="http://felixwu.de"
                 onClick={(e) => {
                   window.location.href =
                     "mailto:contact@dot9.co?subject=Inquiry";

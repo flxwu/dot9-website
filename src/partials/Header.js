@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 
 import Logo from "./Logo";
 
@@ -28,7 +29,7 @@ function Header() {
           </div>
 
           {/* Site navigation */}
-          {/* <nav className="flex flex-grow">
+          <nav className="flex flex-grow">
             <ul className="flex flex-grow justify-end flex-wrap items-center">
               <li>
                 <Link
@@ -40,22 +41,14 @@ function Header() {
               </li>
               <li>
                 <Link
-                  to="/signin"
+                  to="/about"
                   className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out"
                 >
-                  Projects
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to="/signin"
-                  className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out"
-                >
-                  About Us
+                  About
                 </Link>
               </li>
             </ul>
-          </nav> */}
+          </nav>
         </div>
       </div>
     </header>
