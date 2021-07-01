@@ -9,7 +9,7 @@ function AboutUs() {
       <Header />
 
       {/*  Page content */}
-      <main className="flex-grow">
+      <main className="flex-grow pb-32">
         <section className="relative">
           <div
             className="max-w-6xl mx-auto px-4 sm:px-6"
@@ -44,16 +44,16 @@ function AboutUs() {
               </h1>
               <div className="flex justify-between mt-10 text-center">
                 <div className="flex-col max-w-md">
+                  <img
+                    className="md:max-w-none mx-auto rounded-full mt-10 mb-4"
+                    src={require("../images/felix_4.png").default}
+                    width="150"
+                    height="150"
+                    alt="Features bg"
+                  />
                   <span className="text-2xl text-d9Blue-900 mb-8">
                     Felix Wu
                   </span>
-                  <img
-                    className="md:max-w-none mx-auto rounded-full mt-10 mb-10"
-                    src={require("../images/felix_4.png").default}
-                    width="200"
-                    height="200"
-                    alt="Features bg"
-                  />
                   <p className="text-xl text-gray-600">
                     A Full-Stack Web and Infrastructure expert with {`>`}5 years
                     experience. Currently Senior Software Engineer at{" "}
@@ -64,16 +64,17 @@ function AboutUs() {
                   </p>
                 </div>
                 <div className="flex-col max-w-md">
+                  
+                  <img
+                    className="md:max-w-none mx-auto rounded-full mt-10 mb-4"
+                    src={require("../images/christof_2.png").default}
+                    width="150"
+                    height="150"
+                    alt="Features bg"
+                  />
                   <span className="text-2xl text-d9Blue-900 mb-8">
                     Christof Zirkler
                   </span>
-                  <img
-                    className="md:max-w-none mx-auto rounded-full mt-10 mb-10"
-                    src={require("../images/christof_2.png").default}
-                    width="200"
-                    height="200"
-                    alt="Features bg"
-                  />
                   <p className="text-xl text-gray-600">
                     A Mobile and Full-Stack expert with {`>`}10 years
                     experience. Currently Mobile Team Lead at
