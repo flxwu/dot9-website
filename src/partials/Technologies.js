@@ -11,6 +11,7 @@ import {
   FaVuejs,
   FaDrawPolygon,
 } from "react-icons/fa";
+import { GrGolang } from "react-icons/gr";
 import { RiFlutterLine } from "react-icons/ri";
 import { DiResponsive, DiGoogleCloudPlatform } from "react-icons/di";
 import { AiFillGithub } from "react-icons/ai";
@@ -35,6 +36,7 @@ const techlist = [
   [<FaApple />, "Native iOS"],
   [<FaAndroid />, "Native Android"],
   [<RiFlutterLine />, "Flutter"],
+  [<GrGolang />, "golang"], 
 ];
 
 export default function Technologies() {
