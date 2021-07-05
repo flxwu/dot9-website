@@ -33,6 +33,15 @@ const TESTIMONIALS = [
         companyName: "Ovrnite App ",
         companyUrl: "https://www.ovrnite.app/",
     },
+    {
+        text: `Unsere kürzlich veröffentlichte Visito App kommt bei den Usern richtig gut an. Leider hatten wir erstmal nur Kapazitäten um eine iOS Version der App zu bauen. Natürlich wollten wir auch ASAP den Android Markt bedienen. Hier kam dot9 für uns in Spiel: In Rekordtempo konnte dot9 die iOS App auf Android portieren und hat uns somit einen erfolgreichen Produktlaunch ermöglicht.`,
+        textMore: `Die Qualität der gelieferten Software und auch die Beratung war in höchstem Maße zufriedenstellend. Besonders hervorheben möchte ich wie reibunglos die Zusammenarbeit war: Kein Verwaltungsaufwand, extrem hohes Maß an Selbständigkeit, frühes Eskalieren potentieller Probleme. Während des gesamten Projekts konnten wir uns auf unsere eigene Arbeit konzentrieren und dot9 einfach machen lassen. Wie man es sich von einem Technologiepartner wünscht.`,
+        authorName: "Alexander Koruš",
+        authorDescription: "CEO",
+        authorImageUrl: require("../images/alexander_korus.jpeg").default,
+        companyName: "visito.me App",
+        companyUrl: "https://visito.me/",
+    }
 ];
 
 function Testimonials() {
