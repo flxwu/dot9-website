@@ -208,22 +208,22 @@ function FeaturesBlocks() {
                   points="190.5 288.678 481.5 288.678 526.616 310.657 598.5 345.678 645.5 257.678 778.5 257.678"
                   fill="none"
                   stroke="#3f3d56"
-                  stroke-miterlimit="10"
-                  stroke-width="2"
+                  strokeMiterlimit="10"
+                  strokeWidth="2"
                 />
                 <polyline
                   points="304.925 288.678 326.5 339.678 379.5 339.678"
                   fill="none"
                   stroke="#3f3d56"
-                  stroke-miterlimit="10"
-                  stroke-width="2"
+                  strokeMiterlimit="10"
+                  strokeWidth="2"
                 />
                 <polyline
                   points="385.807 288.678 459.5 248.678 511.5 248.678"
                   fill="none"
                   stroke="#3f3d56"
-                  stroke-miterlimit="10"
-                  stroke-width="2"
+                  strokeMiterlimit="10"
+                  strokeWidth="2"
                 />
                 <circle cx="304.5" cy="288.67774" r="9" fill="#66a9f7" />
                 <circle cx="388.5" cy="288.67774" r="9" fill="#66a9f7" />
@@ -231,22 +231,22 @@ function FeaturesBlocks() {
                   points="526.5 310.678 532.5 399.678 584.5 399.678"
                   fill="none"
                   stroke="#3f3d56"
-                  stroke-miterlimit="10"
-                  stroke-width="2"
+                  strokeMiterlimit="10"
+                  strokeWidth="2"
                 />
                 <polyline
                   points="626.65 292.971 569.5 248.678 623.5 248.678"
                   fill="none"
                   stroke="#3f3d56"
-                  stroke-miterlimit="10"
-                  stroke-width="2"
+                  strokeMiterlimit="10"
+                  strokeWidth="2"
                 />
                 <polyline
                   points="721.051 257.678 776.5 301.678 828.5 301.678"
                   fill="none"
                   stroke="#3f3d56"
-                  stroke-miterlimit="10"
-                  stroke-width="2"
+                  strokeMiterlimit="10"
+                  strokeWidth="2"
                 />
                 <circle cx="526.5" cy="310.67774" r="9" fill="#66a9f7" />
                 <circle cx="720.5" cy="257.67774" r="9" fill="#66a9f7" />
@@ -258,56 +258,56 @@ function FeaturesBlocks() {
                   y2="347.67774"
                   fill="none"
                   stroke="#3f3d56"
-                  stroke-miterlimit="10"
-                  stroke-width="2"
+                  strokeMiterlimit="10"
+                  strokeWidth="2"
                 />
                 <path
                   d="M615.93006,322.58887h0Z"
                   transform="translate(-104.43006 -64.91113)"
                   fill="none"
                   stroke="#3f3d56"
-                  stroke-miterlimit="10"
-                  stroke-width="2"
+                  strokeMiterlimit="10"
+                  strokeWidth="2"
                 />
                 <path
                   d="M727.93006,321.58887h0Z"
                   transform="translate(-104.43006 -64.91113)"
                   fill="none"
                   stroke="#3f3d56"
-                  stroke-miterlimit="10"
-                  stroke-width="2"
+                  strokeMiterlimit="10"
+                  strokeWidth="2"
                 />
                 <path
                   d="M727.93006,329.58887h0Z"
                   transform="translate(-104.43006 -64.91113)"
                   fill="none"
                   stroke="#3f3d56"
-                  stroke-miterlimit="10"
-                  stroke-width="2"
+                  strokeMiterlimit="10"
+                  strokeWidth="2"
                 />
                 <path
                   d="M932.93006,374.58887h0Z"
                   transform="translate(-104.43006 -64.91113)"
                   fill="none"
                   stroke="#3f3d56"
-                  stroke-miterlimit="10"
-                  stroke-width="2"
+                  strokeMiterlimit="10"
+                  strokeWidth="2"
                 />
                 <path
                   d="M913.93006,382.58887h0Z"
                   transform="translate(-104.43006 -64.91113)"
                   fill="none"
                   stroke="#3f3d56"
-                  stroke-miterlimit="10"
-                  stroke-width="2"
+                  strokeMiterlimit="10"
+                  strokeWidth="2"
                 />
                 <path
                   d="M688.93006,472.58887h0Z"
                   transform="translate(-104.43006 -64.91113)"
                   fill="none"
                   stroke="#3f3d56"
-                  stroke-miterlimit="10"
-                  stroke-width="2"
+                  strokeMiterlimit="10"
+                  strokeWidth="2"
                 />
                 <circle
                   cx="809.54207"
@@ -315,8 +315,8 @@ function FeaturesBlocks() {
                   r="14.75556"
                   fill="none"
                   stroke="#3f3d56"
-                  stroke-miterlimit="10"
-                  stroke-width="2"
+                  strokeMiterlimit="10"
+                  strokeWidth="2"
                 />
                 <ellipse
                   cx="152"
