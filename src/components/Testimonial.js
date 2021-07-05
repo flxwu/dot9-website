@@ -35,8 +35,8 @@ export default function Testimonial({
                         text={text}
                         secondaryText={textMore}
                         min={150}
-                        ideal={200}
-                        max={200}
+                        ideal={999}
+                        max={999}
                         readMoreText={"Read more"}
                     />
                     <cite className="block font-bold text-lg not-italic mb-1">
