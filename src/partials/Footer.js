@@ -30,7 +30,7 @@ function Footer() {
                 to="/privacy"
                 className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out"
               >
-                {t('footer-privacy-policy')}
+                {t('footer-privacy-policy-link')}
               </Link>
             </div>
           </div>
