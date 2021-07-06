@@ -1,4 +1,5 @@
 import ReadMoreQuote from "../partials/ReadMoreQuote";
+import { useTranslation } from 'react-i18next';
 
 export default function Testimonial({
     text,
@@ -9,6 +10,9 @@ export default function Testimonial({
     companyName,
     companyUrl,
 }) {
+
+    const { t } = useTranslation();
+
     return (
         <div className="max-w-3xl mx-auto mb-24" data-aos="zoom-y-out">
             <div className="relative flex items-start border-2 border-gray-200 rounded bg-white">
@@ -37,7 +41,7 @@ export default function Testimonial({
                         min={150}
                         ideal={999}
                         max={999}
-                        readMoreText={"Read more"}
+                        readMoreText={t('testimonial-read-more')}
                     />
                     <cite className="block font-bold text-lg not-italic mb-1">
                         {authorName}
