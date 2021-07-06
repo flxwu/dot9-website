@@ -1,1 +1,17 @@
-{}
+{
+    "hero-home-intro1": "dot9 puts your digital vision into reality with world-class software. Founded by industry veterans, we excel at execution and product excellence, while putting you and your needs first.",
+    "hero-home-intro2": "Whether you are building from scratch, maintaining or scaling an existing product, we jump in at any stage of the software development cycle.",
+    "features-blocks-title": "The services we offer",
+    "features-blocks-subtitle": "We enable you to ship great quality software. With our broad bandwith of services we operate as a full-flexed engineering team.",
+    "zero-to-hundred-building-title": "0-100% BUILDING",
+    "zero-to-hundred-building-text": "Turn your ideas into high-tech solutions with a user-centered approach. We help you plan and define, then build, launch and scale your digital product.",
+    "full-stack-development-title": "Full-Stack Web development",
+    "full-stack-development-text": "We develop full-fletched web applications that <0>scale to hundreds of thousands of users around the world</0>. We use the best and most modern technologies, integrate with various databases and APIs, and properly productionize your app.",
+    "mobile-app-development-title": "Mobile App Development",
+    "mobile-app-development-text": "Build stunning mobile experiences for <0><i>cross-platform, iOS, and Android</i></0>, with responsive, user-centered design. We make apps that deliver <0>real value</0> to users, and will advise you on making critical choices.",
+    "operations-and-monitoring-title": "Operations and Monitoring",
+    "operations-and-monitoring-text": "Building and shipping an application is the start of the software lifecycle - Some applications require to be carefully monitored to continously ensure it's running as expected.",
+    "technologies-title": "Competencies",
+    "technologies-subtitle": "We work with the world's cutting-edge technologies and excel at writing and running software on the cloud.",
+    "testimonials-title": "Trusted by top-tier startups and companies all over the world"
+}

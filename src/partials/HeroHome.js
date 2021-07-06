@@ -1,6 +1,10 @@
 import React from "react";
+import { useTranslation } from 'react-i18next';
 
 function HeroHome() {
+
+  const { t } = useTranslation();
+
   return (
     <section className="relative">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
@@ -23,18 +27,14 @@ function HeroHome() {
                 data-aos="zoom-y-out"
                 data-aos-delay="150"
               >
-                dot9 puts your digital vision into reality with world-class
-                software. Founded by industry veterans, we excel at execution
-                and product excellence, while putting you and your needs first.
+                {t('hero-home-intro1')}
               </p>
               <p
                 className="text-xl text-gray-600 mb-8"
                 data-aos="zoom-y-out"
                 data-aos-delay="150"
               >
-                Whether you are building from scratch, maintaining or scaling an
-                existing product, we jump in at any stage of the software
-                development cycle.
+                {t('hero-home-intro2')}
               </p>
             </div>
           </div>

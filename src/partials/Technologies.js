@@ -17,6 +17,7 @@ import { DiResponsive, DiGoogleCloudPlatform } from "react-icons/di";
 import { AiFillGithub } from "react-icons/ai";
 import { SiJavascript, SiTypescript } from "react-icons/si";
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 const techlist = [
     [<SiJavascript />, "JavaScript"],
@@ -40,14 +41,16 @@ const techlist = [
 ];
 
 export default function Technologies() {
+
+    const { t } = useTranslation();
+
     return (
         <section className="relative">
             {/* Section header */}
             <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-                <h2 className="h2 mt-4 mb-4">Competencies</h2>
+                <h2 className="h2 mt-4 mb-4">{t('technologies-title')}</h2>
                 <p className="text-xl text-gray-600">
-                    We work with the world's cutting-edge technologies and excel
-                    at writing and running software on the cloud.
+                    {t('technologies-subtitle')}
                 </p>
             </div>
 

@@ -1,5 +1,6 @@
 import React from "react";
 import Testimonial from "../components/Testimonial";
+import { useTranslation } from "react-i18next";
 
 const TESTIMONIALS = [
     {
@@ -45,6 +46,9 @@ const TESTIMONIALS = [
 ];
 
 function Testimonials() {
+
+    const { t } = useTranslation();
+
     return (
         <section className="relative">
             <div className="max-w-6xl mx-auto px-4 sm:px-6">
@@ -52,8 +56,7 @@ function Testimonials() {
                     {/* Section header */}
                     <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
                         <h2 className="h2">
-                            Trusted by top-tier startups and companies all over
-                            the world
+                            {t('testimonials-title')}
                         </h2>
                     </div>
 

@@ -1,16 +1,19 @@
 import React from "react";
+import { useTranslation, Trans } from 'react-i18next';
 
 function FeaturesBlocks() {
+
+  const { t } = useTranslation();
+
   return (
     <section className="relative">
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-20">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 mb-4">The services we offer</h2>
+            <h2 className="h2 mb-4">{t('features-blocks-title')}</h2>
             <p className="text-xl text-gray-600">
-              We enable you to ship great quality software. With our broad
-              bandwith of services we operate as a full-flexed engineering team.
+              {t('features-blocks-subtitle')}
             </p>
           </div>
 
@@ -35,12 +38,10 @@ function FeaturesBlocks() {
               </div>
 
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">
-                0-100% BUILDING
+                {t('zero-to-hundred-building-title')}
               </h4>
               <p className="text-gray-600 text-center">
-                Turn your ideas into high-tech solutions with a user-centered
-                approach. We help you plan and define, then build, launch and
-                scale your digital product.
+                {t('zero-to-hundred-building-text')}
               </p>
             </div>
 
@@ -65,13 +66,10 @@ function FeaturesBlocks() {
               </div>
 
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">
-                Full-Stack Web development
+                {t('full-stack-development-title')}
               </h4>
               <p className="text-gray-600 text-center">
-                We develop full-fletched web applications that{" "}
-                <b>scale to hundreds of thousands of users around the world</b>.
-                We use the best and most modern technologies, integrate with
-                various databases and APIs, and properly productionize your app.
+                <Trans i18nKey="full-stack-development-text"><b></b></Trans>
               </p>
             </div>
 
@@ -96,16 +94,10 @@ function FeaturesBlocks() {
               </div>
 
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">
-                Mobile App Development
+                {t('mobile-app-development-title')}
               </h4>
               <p className="text-gray-600 text-center">
-                Build stunning mobile experiences for{" "}
-                <b>
-                  <i>cross-platform, iOS, and Android</i>
-                </b>
-                , with responsive, user-centered design. We make apps that
-                deliver <b>real value</b> to users, and will advise you on
-                making critical choices.
+                <Trans i18nKey="mobile-app-development-text"><b></b></Trans>
               </p>
             </div>
 
@@ -130,12 +122,10 @@ function FeaturesBlocks() {
               </div>
 
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">
-                Operations and Monitoring
+                {t('operations-and-monitoring-title')}
               </h4>
               <p className="text-gray-600 text-center">
-                Building and shipping an application is the start of the
-                software lifecycle - Some applications require to be carefully
-                monitored to continously ensure it's running as expected.
+                {t('operations-and-monitoring-text')}
               </p>
             </div>
           </div>
