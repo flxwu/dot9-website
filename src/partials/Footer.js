@@ -1,9 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 import Logo from "./Logo";
 
 function Footer() {
+
+  const { t } = useTranslation();
+
   return (
     <footer>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
@@ -19,14 +23,14 @@ function Footer() {
                 to="/terms"
                 className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out"
               >
-                Terms
+                {t('footer-terms-link')}
               </Link>{" "}
               ·{" "}
               <Link
                 to="/privacy"
                 className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out"
               >
-                Privacy Policy
+                {t('footer-privacy-policy')}
               </Link>
             </div>
           </div>
@@ -54,7 +58,7 @@ function Footer() {
                   d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
                 ></path>
               </svg>
-              Schedule a video call
+              {t('schedule-video-call-button')}
             </a>
           </div>
         </div>
@@ -63,7 +67,7 @@ function Footer() {
         <div className="md:flex md:items-center md:justify-between py-4 md:py-8 border-t border-gray-200">
           {/* Copyrights note */}
           <div className="text-sm text-gray-600 mr-4">
-            <p>Made with ♡ in Germany. All rights reserved.</p>
+            <p>{t('footer-copyright-notice')}</p>
           </div>
         </div>
       </div>

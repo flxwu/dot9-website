@@ -1,10 +1,12 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 import Logo from "./Logo";
 
 function Header() {
   const [top, setTop] = useState(true);
+  const { t } = useTranslation();
 
   // detect whether user has scrolled the page down by 10px
   useEffect(() => {
@@ -36,7 +38,7 @@ function Header() {
                   to="/"
                   className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out"
                 >
-                  Home
+                  {t('nav-home')}
                 </Link>
               </li>
               <li>
@@ -44,7 +46,7 @@ function Header() {
                   to="/about"
                   className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out"
                 >
-                  About
+                  {t('nav-about')}
                 </Link>
               </li>
             </ul>
