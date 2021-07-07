@@ -10,7 +10,7 @@ function FeaturesBlocks() {
             <h2 className="h2 mb-4">The services we offer</h2>
             <p className="text-xl text-gray-600">
               We enable you to ship great quality software. With our broad
-              bandwith of services we operate as a full-flexed engineering team.
+              bandwidth of services we operate as a full-fledged engineering team.
             </p>
           </div>
 
