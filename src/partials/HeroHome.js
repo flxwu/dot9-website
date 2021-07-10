@@ -16,7 +16,7 @@ function HeroHome() {
               className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4"
               data-aos="zoom-y-out"
             >
-              Google scale software, <br></br>
+              A full-fledged tech team, <br></br>
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-d9Blue-900 to-d9Blue-900">
                 for you.
               </span>
