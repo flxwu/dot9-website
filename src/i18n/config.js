@@ -8,14 +8,14 @@ i18n.use(detector).use(initReactI18next).init({
     en: {
       translations: require('./locales/en/translations.json')
     },
-    de: {
-      translations: require('./locales/de/translations.json')
-    }
+    // de: {
+    //   translations: require('./locales/de/translations.json')
+    // }
   },
   ns: ['translations'],
   defaultNS: 'translations'
 });
 
-i18n.languages = ['en', 'de'];
+i18n.languages = ['en'];
 
 export default i18n;
