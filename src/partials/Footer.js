@@ -23,7 +23,7 @@ function Footer() {
                 to="/terms"
                 className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out"
               >
-                {t('footer-terms-link')}
+                {t('footer-imprint-link')}
               </Link>{" "}
               ·{" "}
               <Link
