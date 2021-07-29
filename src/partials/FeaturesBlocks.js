@@ -17,7 +17,7 @@ function FeaturesBlocks() {
             </p>
           </div>
 
-          <div className="mx-auto grid gap-6 md:grid-cols-1 lg:grid-cols-2 items-start mb-12">
+          <div className="items-stretch mx-auto grid gap-6 md:grid-cols-1 lg:grid-cols-2 items-start mb-12">
             {/* 0 - 100 Bulding */}
             <div className="relative flex flex-col items-center p-12 bg-gray-50 rounded border-gray-100 shadow-md mb-8">
               <div className="rounded-full h-14 w-14 flex items-center justify-center bg-blue-500 -mt-1 mb-2">
