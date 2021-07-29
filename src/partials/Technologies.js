@@ -1,4 +1,5 @@
 import {
+    FaPython,
     FaAndroid,
     FaAngular,
     FaApple,
@@ -13,13 +14,15 @@ import {
 } from "react-icons/fa";
 // import { GrGolang } from "react-icons/gr";
 import { RiFlutterLine } from "react-icons/ri";
-import { DiResponsive, DiGoogleCloudPlatform } from "react-icons/di";
+import { DiResponsive, DiGoogleCloudPlatform, DiGo } from "react-icons/di";
 import { AiFillGithub } from "react-icons/ai";
 import { SiJavascript, SiTypescript } from "react-icons/si";
 import React from "react";
 import { useTranslation } from "react-i18next";
 
 const techlist = [
+    [<FaPython />, "Python"],
+    [<DiGo />, "Go"],
     [<SiJavascript />, "JavaScript"],
     [<SiTypescript />, "Typescript"],
     [<AiFillGithub />, "Git"],
