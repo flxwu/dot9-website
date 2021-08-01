@@ -35,7 +35,7 @@ function Testimonials() {
             companyUrl: "https://visito.me/",
         },
         {
-            text: `Ich werde ihr sehr kompetent und fachmännisch beraten. Die Arbeiten wurden perfekt umgesetzt. Darüberhinaus habe ich, wenn ich eine Frage hatte, umfangreiche Videos mit Erklärungen erhalten. So stelle ich mir die Zusammenarbeit vor.  Ich fühle mich bei dot9 mit meinen Softwareprojekten immer sehr gut aufgehoben. Sehr zu empfehlen, gerne immer wieder.`,
+            text: `Ich werde hier sehr kompetent und fachmännisch beraten. Die Arbeiten wurden perfekt umgesetzt. Darüberhinaus habe ich, wenn ich eine Frage hatte, umfangreiche Videos mit Erklärungen erhalten. So stelle ich mir die Zusammenarbeit vor.  Ich fühle mich bei dot9 mit meinen Softwareprojekten immer sehr gut aufgehoben. Sehr zu empfehlen, gerne immer wieder.`,
             textMore: null,
             authorName: "Eberhard Zeidler",
             authorDescription: 'Geschäftsführer',
