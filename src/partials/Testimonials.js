@@ -33,6 +33,15 @@ function Testimonials() {
             authorImageUrl: require("../images/alexander_korus.jpeg").default,
             companyName: "visito.me App",
             companyUrl: "https://visito.me/",
+        },
+        {
+            text: `Ich werde ihr sehr kompetent und fachmännisch beraten. Die Arbeiten wurden perfekt umgesetzt. Darüberhinaus habe ich, wenn ich eine Frage hatte, umfangreiche Videos mit Erklärungen erhalten. So stelle ich mir die Zusammenarbeit vor.  Ich fühle mich bei dot9 mit meinen Softwareprojekten immer sehr gut aufgehoben. Sehr zu empfehlen, gerne immer wieder.`,
+            textMore: null,
+            authorName: "Eberhard Zeidler",
+            authorDescription: 'Geschäftsführer',
+            authorImageUrl: require("../images/zeidler_logo.png").default,
+            companyName: "Zeidler Glas Gruppe",
+            companyUrl: "https://www.zeidler-gruppe.com/",
         }
     ];
 
