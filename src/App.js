@@ -42,6 +42,10 @@ function App() {
         <Route path="/privacy">
           <PrivacyPolicy />
         </Route>
+        <Route path='/careers' component={() => { 
+          window.location.replace('https://dot9.join.com/');
+          return null;
+        }}/>
       </Switch>
     </>
   );
