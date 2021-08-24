@@ -1,49 +1,21 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Testimonial from "../components/Testimonial";
 import { useTranslation } from "react-i18next";
 
 function Testimonials() {
 
     const { t } = useTranslation();
+    const [testimonials, setTestimonials] = useState([])
 
-    const TESTIMONIALS = [
-        {
-            text: t('jack-moxon-testimonial-text1'),
-            textMore: t('jack-moxon-testimonial-text2'),
-            authorName: "Jack Moxon",
-            authorDescription: t('jack-moxon-testimonial-description'),
-            authorImageUrl: require("../images/jack_moxon.jpg").default,
-            companyName: "Blue Canvas",
-            companyUrl: "https://bluecanvas.io",
-        },
-        {
-            text: t('owen-smith-testimonial-text1'),
-            textMore: null,
-            authorName: "Owen Smith",
-            authorDescription: t('owen-smith-testimonial-description'),
-            authorImageUrl: require("../images/owen_smith.jpeg").default,
-            companyName: "Ovrnite App ",
-            companyUrl: "https://www.ovrnite.app/",
-        },
-        {
-            text: t('alexander-korus-testimonial-text1'),
-            textMore: t('alexander-korus-testimonial-text2'),
-            authorName: "Alexander Koruš",
-            authorDescription: t('alexander-korus-testimonial-description'),
-            authorImageUrl: require("../images/alexander_korus.jpeg").default,
-            companyName: "visito.me App",
-            companyUrl: "https://visito.me/",
-        },
-        {
-            text: `Ich werde hier sehr kompetent und fachmännisch beraten. Die Arbeiten wurden perfekt umgesetzt. Darüberhinaus habe ich, wenn ich eine Frage hatte, umfangreiche Videos mit Erklärungen erhalten. So stelle ich mir die Zusammenarbeit vor.  Ich fühle mich bei dot9 mit meinen Softwareprojekten immer sehr gut aufgehoben. Sehr zu empfehlen, gerne immer wieder.`,
-            textMore: null,
-            authorName: "Eberhard Zeidler",
-            authorDescription: 'Geschäftsführer',
-            authorImageUrl: require("../images/zeidler_logo.png").default,
-            companyName: "Zeidler Glas Gruppe",
-            companyUrl: "https://www.zeidler-gruppe.com/",
+    useEffect(() => {
+        async function fetchTestimonials() {
+            const url = "https://dot9-website-strapi.herokuapp.com/testimonials?_sort=sortPriority:ASC"
+            const testimonialsResponse = await fetch(url)
+            const data = await testimonialsResponse.json() 
+            setTestimonials(data)
         }
-    ];
+        fetchTestimonials()
+    }, [])
 
     return (
         <section className="relative">
@@ -61,19 +33,17 @@ function Testimonials() {
                         className="max-w-3xl mx-auto mt-10"
                         data-aos="zoom-y-out"
                     >
-                        {TESTIMONIALS.map((testimonial, index) => {
+                        {testimonials.map((testimonial, index) => {
                             return (
                                 <Testimonial
-                                    key={index}
-                                    text={testimonial.text}
-                                    textMore={testimonial.textMore}
+                                    key={testimonial.id}
+                                    text={testimonial.textPreview}
+                                    textMore={testimonial.textExtended}
                                     authorName={testimonial.authorName}
-                                    authorImageUrl={testimonial.authorImageUrl}
-                                    authorDescription={
-                                        testimonial.authorDescription
-                                    }
-                                    companyName={testimonial.companyName}
-                                    companyUrl={testimonial.companyUrl}
+                                    authorImageUrl={testimonial.authorImage?.url || ""}
+                                    authorDescription={testimonial.authorRole}
+                                    companyName={testimonial.authorCompany}
+                                    companyUrl={testimonial.authorCompanyUrl}
                                 />
                             );
                         })}

@@ -28,13 +28,5 @@
     "founders-section-title": "Our Founders",
     "felix-wu-description": "A Full-Stack Web and Infrastructure expert with >5 years experience. Currently Senior Software Engineer at <0>Google</0>, working on Release Management for GCP. Based in Zurich.",
     "christof-zirkler-description": "A Mobile and Full-Stack expert with >10 years experience. Currently Mobile Team Lead at <0>LivingPackets</0>, an upcoming logistics startup. Based in Berlin.",
-    "testimonial-read-more": "Read more",
-    "jack-moxon-testimonial-description": "CEO and Co-Founder",
-    "jack-moxon-testimonial-text1": "Working with dot9 has been great for our business. We have been able to land some significant contracts with dot9's help, and we’ll definitely expand our cooperation with them. We have been really impressed by the quality of services we received. Blue Canvas can definitely recommend dot9 to everyone looking for high-quality, highly-flexible engineering solutions.",
-    "jack-moxon-testimonial-text2": "They worked on integrating Blue Canvas with external services, and what was particularly delightful was the quality and independence with which they designed and implemented those integrations across dozens of technologies (Java, React, Express.js etc...) and hard-to-understand APIs (Jira, Azure). They charge reasonable prices, are professional and courteous in dealings, and deliver our items, even ones outside the original scope.",
-    "owen-smith-testimonial-description": "CEO and Co-Founder",
-    "owen-smith-testimonial-text1": "dot9 has been our full product development team from Prototype to MVP to now Release, and working with them has been a great pleasure. Their expertise and work quality across Engineering, Product and Design has repeatedly impressed us and we have a great relationship. We'll definitely keep them as our dev team, and can recommend them as a full end-to-end partner for efficiently and thoroughly building your product.",
-    "alexander-korus-testimonial-description": "CEO",
-    "alexander-korus-testimonial-text1": "Our recently released Visito app has been really well received by users. Unfortunately, we only had the capacity to build an iOS version of the app. Of course, we also wanted to serve the Android market ASAP. This is where dot9 came into play for us: In record time dot9 was able to port the iOS app to Android and thus enabled us to have a successful product launch.",
-    "alexander-korus-testimonial-text2": "The quality of the delivered software and also the consulting was highly satisfactory. I would especially like to emphasize how smooth the cooperation was: no administrative effort, extremely high level of independence, early escalation of potential problems. During the whole project we could concentrate on our own work and just let dot9 do it. Just as you would want from a technology partner."
+    "testimonial-read-more": "Read more"
 }
