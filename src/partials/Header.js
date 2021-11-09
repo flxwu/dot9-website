@@ -49,6 +49,22 @@ function Header() {
                   {t('nav-about')}
                 </Link>
               </li>
+              <li>
+                <Link
+                  to="/careers"
+                  className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out"
+                >
+                  Careers
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/pitch"
+                  className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out"
+                >
+                  Pitch Deck
+                </Link>
+              </li>
             </ul>
           </nav>
         </div>
