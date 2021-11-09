@@ -46,6 +46,10 @@ function App() {
           window.location.replace('https://dot9.join.com/');
           return null;
         }}/>
+        <Route path='/pitch' component={() => { 
+          window.location.replace('https://docs.google.com/presentation/d/1Ugfmg_ikwZuOD5CcYd44G6FfZ6HogXIvGERHFdpwdKw/present');
+          return null;
+        }}/>
       </Switch>
     </>
   );
