@@ -58,12 +58,12 @@ function Header() {
                 </Link>
               </li>
               <li>
-                <Link
-                  to="https://docs.google.com/presentation/d/1Ugfmg_ikwZuOD5CcYd44G6FfZ6HogXIvGERHFdpwdKw/present"
-                  className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out"
+                <a
+                  href="https://docs.google.com/presentation/d/1Ugfmg_ikwZuOD5CcYd44G6FfZ6HogXIvGERHFdpwdKw/present"
+                  class="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out"
                 >
                   Pitch Deck
-                </Link>
+                </a>
               </li>
             </ul>
           </nav>
