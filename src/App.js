@@ -46,6 +46,10 @@ function App() {
           window.location.replace('https://dot9.join.com/');
           return null;
         }}/>
+        <Route path='/flyer' component={() => { 
+          window.location.replace('https://docs.google.com/presentation/d/1Y9a3oEp-_eOzew4ro9tyTaAekxXSTJBsf5UkhM1hS_g/preview');
+          return null;
+        }}/>
         <Route path='/pitch' component={() => { 
           window.location.replace('https://docs.google.com/presentation/d/1Ugfmg_ikwZuOD5CcYd44G6FfZ6HogXIvGERHFdpwdKw/present');
           return null;
