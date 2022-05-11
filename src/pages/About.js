@@ -75,7 +75,7 @@ function AboutUs() {
                   </span>
                   <p className="text-xl text-gray-600">
                     <Trans i18nKey="christof-zirkler-description">
-                    <a className="underline" href="https://livingpackets.com">
+                    <a className="underline" href="https://shopify.com">
                     </a>
                     </Trans>
                   </p>
