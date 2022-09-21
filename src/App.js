@@ -51,7 +51,7 @@ function App() {
           return null;
         }}/>
         <Route path='/pitch' component={() => { 
-          window.location.replace('https://docs.google.com/presentation/d/1Ugfmg_ikwZuOD5CcYd44G6FfZ6HogXIvGERHFdpwdKw/present');
+          window.location.replace('https://docs.google.com/presentation/d/182L7-EWGcAfRzrBACSpm7wBt9B7RXT-n12JtRZVTmWs/present');
           return null;
         }}/>
       </Switch>
