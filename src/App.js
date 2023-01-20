@@ -50,8 +50,8 @@ function App() {
           window.location.replace('https://docs.google.com/presentation/d/1Y9a3oEp-_eOzew4ro9tyTaAekxXSTJBsf5UkhM1hS_g/preview');
           return null;
         }}/>
-        <Route path='/pitch' component={() => { 
-          window.location.replace('https://docs.google.com/presentation/d/182L7-EWGcAfRzrBACSpm7wBt9B7RXT-n12JtRZVTmWs/present');
+        <Route path='/bucket' component={() => { 
+          window.location.replace('https://docs.google.com/document/d/13rxHCHBCu7QsDuK08VOnPU5sm9MnOvTNv2sfII2zHgw/edit');
           return null;
         }}/>
       </Switch>
